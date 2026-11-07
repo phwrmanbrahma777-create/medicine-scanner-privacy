@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for the Medicine Scanner Android app.">
+  <title>Privacy Policy | Medicine Scanner</title>
+  <style>
+    :root { color-scheme: light; --ink:#172b42; --muted:#516275; --accent:#176c81; --bg:#f3f7fa; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.7 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+    header { background:linear-gradient(125deg,#12354e,#176c81); color:#fff; padding:48px 20px 42px; }
+    header div, main, footer div { max-width:800px; margin:auto; }
+    h1 { font-size:clamp(2rem,5vw,2.8rem); margin:0 0 8px; line-height:1.2; }
+    header p { margin:0; opacity:.92; }
+    main { background:#fff; margin:24px auto; padding:30px 38px; border-radius:14px; box-shadow:0 5px 24px #14344b12; }
+    h2 { font-size:1.2rem; line-height:1.35; margin:30px 0 8px; color:#15576c; }
+    p { margin:8px 0 14px; } ul { padding-left:24px; }
+    a { color:#0b6582; overflow-wrap:anywhere; }
+    footer { padding:0 20px 36px; color:var(--muted); font-size:.9rem; }
+    @media(max-width:700px){ main { margin:0; padding:24px 20px; border-radius:0; } header { padding:36px 20px; } }
+  </style>
+</head>
+<body>
+<header><div><h1>Privacy Policy</h1><p>Medicine Scanner · Last updated: 7 November 2026</p></div></header>
+<main>
+  <p>Medicine Scanner is an Android application developed by Phwrman Brahma. This policy describes how the app processes information when you scan medicine packaging or request medicine reference information.</p>
+
+  <h2>1. Information processed</h2>
+  <p>When you use the app, it may process medicine package images and extracted information such as medicine names, active ingredients, strengths, dosage forms, manufacturer and marketer details, batch numbers, and manufacturing and expiry dates. You can review or edit recognized information. The app does not require an account.</p>
+
+  <h2>2. Camera, photos, and text recognition</h2>
+  <p>You may take a photo or choose an existing image to scan medicine packaging. The app uses Google ML Kit for text recognition on your device. Based on the current implementation, original medicine photographs are not intentionally uploaded to the Medicine Scanner backend. Extracted text and relevant medicine details are transmitted to the backend to structure scan results and obtain reference information.</p>
+  <p>The app may create enhanced local image files to improve recognition of printed dates. It attempts to delete these temporary enhanced files after processing, but cleanup may occasionally fail. Original or selected images may remain on your device or in application storage.</p>
+
+  <h2>3. How information is used</h2>
+  <ul>
+    <li>To read and organize information printed on medicine packaging.</li>
+    <li>To display medicine details, including ingredients, strengths, and dates.</li>
+    <li>To retrieve medicine reference information and relevant warnings.</li>
+    <li>To support user-initiated searches and verification against reference datasets.</li>
+  </ul>
+
+  <h2>4. Backend and third-party services</h2>
+  <p>The app sends extracted text and medicine details over HTTPS to its backend, hosted by Render. The backend uses medicine reference resources, including U.S. FDA/openFDA information and locally maintained Indian regulatory reference datasets. Depending on the requested feature, medicine search terms or related details may be sent to external reference services. Service providers may process technical information necessary to deliver requests, such as IP addresses, request times, and server logs, according to their own practices.</p>
+
+  <h2>5. Storage and retention</h2>
+  <p>The inspected application and backend code does not implement permanent server-side storage of individual medicine scans. The app's “Save Medicine” feature keeps selected medicine details in application memory for the current session; these records are not synchronized to a user account or cloud database. The app attempts to remove enhanced temporary OCR images after use. Infrastructure providers may retain technical logs for operational, security, or troubleshooting purposes under their own retention policies.</p>
+
+  <h2>6. Sharing and sale of data</h2>
+  <p>We do not sell medicine scan information to advertisers. Data may be processed by the hosting provider and, where needed for reference lookups, by external medicine information services. We do not provide an account-based service for sharing saved medicine records between users.</p>
+
+  <h2>7. Security</h2>
+  <p>Communication with the Medicine Scanner backend uses HTTPS. We take reasonable steps to protect information, but no method of electronic transmission or storage is completely secure.</p>
+
+  <h2>8. Your choices</h2>
+  <p>You can choose whether to use the camera or select a photo. You can review and edit recognized medicine details, remove medicines saved for the current session, and stop using or uninstall the app. For questions about information handled by the app, contact us using the email below.</p>
+
+  <h2>9. Children's privacy</h2>
+  <p>Medicine Scanner is intended to provide general medicine information and is not specifically directed at children. We do not intentionally ask children to provide personal account information.</p>
+
+  <h2>10. Medical information disclaimer</h2>
+  <p>Medicine Scanner is an informational and educational tool, not a medical device or substitute for professional medical advice. It does not diagnose medical conditions, prescribe treatment, or authenticate medicine products, packaging, or batches. Text recognition and reference information may be incomplete or incorrect. Check the original packaging and consult a qualified healthcare professional when needed.</p>
+
+  <h2>11. Changes to this policy</h2>
+  <p>We may update this policy when the app's features, service providers, or data practices change. The revised policy will be published on this page with an updated date.</p>
+
+  <h2>12. Contact</h2>
+  <p>Developer: <strong>Phwrman Brahma</strong><br>Email: <a href="mailto:phwrmanbrahma777@gmail.com">phwrmanbrahma777@gmail.com</a></p>
+</main>
+<footer><div>© 2026 Medicine Scanner. Privacy Policy.</div></footer>
+</body>
+</html>
